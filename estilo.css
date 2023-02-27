@@ -1,0 +1,168 @@
+body {
+  font-weight: normal;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #46b29d;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #46b29d;
+  border-bottom: 2px solid #46b29d;
+  padding-bottom: 10px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+article h3 {
+  color: #46b29d;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+article ul, article ol {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.recipe {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.recipe h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #46b29d;
+}
+
+.recipe img {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe ul {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.recipe ol {
+  list-style-position: inside;
+  margin-left: 0;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.recipe li {
+  margin-bottom: 10px;
+}
+
+.recipe h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #46b29d;
+}
+.recipe {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.recipe td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  vertical-align: top;
+}
+
+.recipe td:first-child {
+  width: 40%;
+}
+
+.recipe td:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.recipe td:nth-child(odd) {
+  background-color: #fff;
+}
+button {
+  background-color: #ffffff;
+  border: none;
+  color: #4CAF50;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  transform: translateY(2px);
+}
